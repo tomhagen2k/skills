@@ -247,27 +247,69 @@ Ultra-specific: Số liệu cụ thể, không mơ hồ
 
 ---
 
-## 📝 PROMPT MẪU ĐỂ VIẾT ADS BẰNG AI
+## 🎬 FRAMEWORK KỊCH BẢN VIDEO NGẮN (TIKTOK/REELS/FB ADS)
+
+Khi viết kịch bản Video AI (dùng CapCut, HeyGen, v.v.), cấu trúc cần chia thành 2 cột: **Visual (Hình ảnh/Hành động)** và **Audio (Lời thoại/Âm thanh)**.
 
 ```
-Hãy viết 3 phiên bản Facebook Ads content cho tôi với thông tin sau:
+⏱ Hook (0-3s)      : Gây sốc, đặt câu hỏi hoặc nêu đúng nỗi đau.
+⏱ Problem (3-8s)   : Khoét sâu nỗi đau, đồng cảm với khách hàng.
+⏱ Solution (8-18s) : Đưa ra sản phẩm/dịch vụ như giải pháp tối ưu. Nêu bật USP.
+⏱ Proof (18-25s)   : Bằng chứng (Review, Before/After, Demo).
+⏱ CTA (25-30s)     : Kêu gọi hành động rõ ràng.
+```
 
+---
+
+## 💻 CẤU TRÚC LANDING PAGE TỐI ƯU CHUYỂN ĐỔI
+
+Một Landing Page chuyển đổi cao cần các section (phần) cơ bản sau, sắp xếp theo tâm lý học hành vi:
+
+1. **Hero Section (First fold):**
+   - **Headline (H1):** Giá trị cốt lõi / Giải pháp đánh thẳng vào nỗi đau.
+   - **Sub-headline:** Giải thích chi tiết hơn về H1.
+   - **CTA Button 1:** Nổi bật, ở ngay màn hình đầu tiên.
+   - **Hero Image/Video:** Hình ảnh sản phẩm/kết quả mong muốn rõ nét.
+2. **Social Proof (Trust Badge):** Các báo đài, đối tác, số lượng người dùng.
+3. **Problem & Agitation (Nỗi đau):** Khách hàng đang gặp vấn đề gì nếu không dùng sản phẩm?
+4. **Features & Benefits:** Trình bày dạng 3-6 cột. Focus vào lợi ích, không chỉ tính năng.
+5. **Testimonials:** Review chân thực từ khách hàng (Có ảnh, tên, mô tả).
+6. **Offer & Pricing:** Gói ưu đãi, quà tặng, sự khan hiếm (Countdown).
+7. **FAQ:** Trả lời các câu hỏi ngăn cản quyết định mua hàng.
+8. **Final CTA:** Lời kêu gọi hành động cuối ở cuối trang.
+
+---
+
+## 📝 PROMPT MẪU ĐỂ PHÂN TÍCH TOÀN DIỆN (TEXT, VIDEO, LANDING PAGE) BẰNG AI
+
+```
+Bạn là một chuyên gia Marketing và Copywriter hàng đầu. Hãy dựa vào thông tin sản phẩm dưới đây để tạo ra 3 nội dung:
+
+[THÔNG TIN SẢN PHẨM]
 - Sản phẩm/Dịch vụ: [...]
 - USP: [...]
 - Target audience: [...]
-- Pain point chính: [...]
-- Kết quả/lợi ích nổi bật: [...]
-- Offer/Ưu đãi: [...]
-- CTA mong muốn: [...]
-- Deadline/Urgency: [...]
+- Pain point: [...]
+- Desire: [...]
+- Offer: [...]
+- CTA: [...]
+- Deadline: [...]
 
-Yêu cầu:
-- Phiên bản 1: Dùng framework PAS
-- Phiên bản 2: Dùng framework AIDA
-- Phiên bản 3: Dạng storytelling ngắn
-- Mỗi bài 150-250 từ
-- Viết bằng tiếng Việt, giọng [thân thiện / chuyên nghiệp / mạnh mẽ]
-- Hook phải đủ mạnh để dừng scroll
+[YÊU CẦU OUTPUT]
+1️⃣ BÀI POST FACEBOOK ADS:
+Viết 1 bài post quảng cáo Facebook dài 150-250 từ. Sử dụng framework PAS. Giọng điệu chuyên nghiệp, thuyết phục. Dùng emoji phù hợp.
+
+2️⃣ KỊCH BẢN VIDEO NGẮN (30 GIÂY):
+Tạo kịch bản video quảng cáo định dạng dọc. Trình bày dưới dạng bảng 2 cột: VISUAL (Hướng dẫn cảnh quay/chữ hiện trên màn hình) và AUDIO (Lời thoại Voiceover AI).
+Cấu trúc: Hook -> Problem -> Solution -> Proof -> CTA.
+
+3️⃣ LANDING PAGE COPY:
+Viết nội dung text chi tiết cho Landing Page của sản phẩm này, bám sát cấu trúc:
+- Hero Section (H1, Sub-headline, CTA)
+- Problem Section (Đồng cảm nỗi đau)
+- Features & Benefits (3 lợi ích chính)
+- Offer & Urgency (Chi tiết ưu đãi)
+- Final CTA
 ```
 
 ---
