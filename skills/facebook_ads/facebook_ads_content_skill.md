@@ -272,7 +272,7 @@ Một Landing Page chuyển đổi cao cần các section (phần) cơ bản sau
    - **Hero Image/Video:** Hình ảnh sản phẩm/kết quả mong muốn rõ nét.
 2. **Social Proof (Trust Badge):** Các báo đài, đối tác, số lượng người dùng.
 3. **Problem & Agitation (Nỗi đau):** Khách hàng đang gặp vấn đề gì nếu không dùng sản phẩm?
-4. **Features & Benefits:** Trình bày dạng 3-6 cột. Focus vào lợi ích, không chỉ tính năng.
+4. **Features & Benefits:** Trình bày dưới dạng các khối nội dung tràn viền (Full-width sections) hoặc Canvas lớn. Mỗi lợi ích chính nên đi kèm với một hình ảnh sản phẩm cực nét hoặc Video minh họa chiếm trọn không gian. Sử dụng bố cục xen kẽ (Z-pattern) để tạo nhịp điệu kể chuyện cuốn hút.
 5. **Testimonials:** Review chân thực từ khách hàng (Có ảnh, tên, mô tả).
 6. **Offer & Pricing:** Gói ưu đãi, quà tặng, sự khan hiếm (Countdown).
 7. **FAQ:** Trả lời các câu hỏi ngăn cản quyết định mua hàng.
@@ -281,6 +281,7 @@ Một Landing Page chuyển đổi cao cần các section (phần) cơ bản sau
 ### 🌟 TIÊU CHUẨN THẨM MỸ BẮT BUỘC (AESTHETICS GUIDELINES)
 Khi yêu cầu AI (như Antigravity/v0) code giao diện Landing Page, cần gắn kèm các tiêu chuẩn sau để đảm bảo chất lượng giao diện cao cấp nhất:
 - **Premium Design:** Bắt buộc dùng Vanilla CSS. Sử dụng hiệu ứng Glassmorphism (Kính mờ) cho các thẻ nội dung, đổ bóng sâu (soft & deep shadows).
+- **Immersive Full-width Layout:** Ưu tiên thiết kế tràn viền (bleed-to-edge). Các khối hình ảnh sản phẩm hoặc banner nên chiếm 100% chiều ngang màn hình để tạo cảm giác sang trọng và chuyên nghiệp như các trang sản phẩm của Apple/Xiaomi. Hạn chế tối đa các khoảng trống thừa hai bên (boxed layout).
 - **Dynamic UX (Giao diện động):** Bố cục động với các vi-tương-tác (micro-animations) như hiệu ứng hover nổi bật, pulse-glow (phát sáng nhịp nhàng) cho các nút CTA.
 - **Modern Palette & Typography:** Khuyến khích sử dụng Dark Mode hoặc Light Mode sắc nét với Gradient color hiện đại (tránh màu cơ bản nhàm chán). Bắt buộc sử dụng các phông chữ hiện đại từ Google Fonts như **Inter, Roboto, hoặc Outfit**.
 
@@ -325,6 +326,14 @@ Hãy lập trình một trang Landing Page bằng React + Vanilla CSS (hoặc Vi
 - Form trong Modal gồm các trường: Họ Tên, Số điện thoại, Tỉnh/Thành phố, Địa chỉ chi tiết, và **Số lượng (sử dụng `<input type="number" min="1" defaultValue="1" />`, KHÔNG dùng thẻ `<select>`)**.
 - Cung cấp tính năng gọi API (fetch POST) gửi dữ liệu (Name, Phone, Address, City, Quantity, cùng với Order_id tự sinh, Price tính toán tự động) tới Link Webhook Zapier ở trên khi người dùng Submit.
 - Hiển thị hiệu ứng "Đang xử lý..." và thay đổi UI thành màn hình thông báo "Đặt hàng thành công" thật đẹp mắt sau khi gửi.
+
+5️⃣ DANH SÁCH PROMPT TẠO ẢNH (DÀNH CHO LUMIFLOW/MIDJOURNEY):
+Dựa trên các tính năng và nội dung đã phân tích, hãy tạo ra danh sách từ 8-10 prompt chi tiết để tạo ảnh minh họa. Mỗi prompt cần đảm bảo:
+- **Tên sản phẩm:** Phải nhắc đến tên sản phẩm cần tạo trong prompt.
+- **Nội dung minh họa:** Mô tả rõ cảnh quay/bối cảnh dùng để giải thích cho tính năng cụ thể nào.
+- **Phong cách & Kỹ thuật:** Chỉ định ánh sáng (studio lighting), góc chụp, không khí (high-tech, cozy, luxury).
+- **Kích thước (Aspect Ratio):** Chỉ định tỷ lệ (ví dụ: 16:9 cho ảnh tràn viền, 1:1 cho icon).
+- **Mục đích:** Ghi chú ảnh này sẽ được đặt ở section nào trên Landing Page.
 ```
 
 ---
