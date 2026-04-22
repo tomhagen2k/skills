@@ -75,7 +75,7 @@ Chạy ads Facebook mà cứ ĐỐT TIỀN mà không ra đơn?
 
 [Agitate]
 Bạn thử đủ mọi cách: thay ảnh, đổi copy, tăng budget...
-Nhưng CPA vẫn cao, ROAS vẫn thấp. Mỗi ngày nhìn dashboard mà thở dài.
+But CPA vẫn cao, ROAS vẫn thấp. Mỗi ngày nhìn dashboard mà thở dài.
 Trong khi đối thủ của bạn cứ thế mà lấy hết khách hàng của bạn.
 
 [Solution]
@@ -261,9 +261,9 @@ Khi viết kịch bản Video AI (dùng CapCut, HeyGen, v.v.), cấu trúc cần
 
 ---
 
-## 💻 CẤU TRÚC LANDING PAGE TỐI ƯU CHUYỂN ĐỔI
+## 💻 TIẾN HÀNH XÂY DỰNG LANDING PAGE TỐI ƯU CHUYỂN ĐỔI (Sử dụng React (Next.js) kết hợp với Tailwind CSS)
 
-Một Landing Page chuyển đổi cao cần các section (phần) cơ bản sau, sắp xếp theo tâm lý học hành vi:
+Để có Landing Page chuyển đổi cao cần các section (phần) cơ bản sau, sắp xếp theo tâm lý học hành vi:
 
 1. **Hero Section (First fold):**
    - **Headline (H1):** Giá trị cốt lõi / Giải pháp đánh thẳng vào nỗi đau.
@@ -278,63 +278,37 @@ Một Landing Page chuyển đổi cao cần các section (phần) cơ bản sau
 7. **FAQ:** Trả lời các câu hỏi ngăn cản quyết định mua hàng.
 8. **Final CTA:** Lời kêu gọi hành động cuối ở cuối trang.
 
-### 🌟 TIÊU CHUẨN THẨM MỸ BẮT BUỘC (AESTHETICS GUIDELINES)
-Khi yêu cầu AI (như Antigravity/v0) code giao diện Landing Page, cần gắn kèm các tiêu chuẩn sau để đảm bảo chất lượng giao diện cao cấp nhất:
-- **Premium Design:** Bắt buộc dùng Vanilla CSS. Sử dụng hiệu ứng Glassmorphism (Kính mờ) cho các thẻ nội dung, đổ bóng sâu (soft & deep shadows).
-- **Immersive Full-width Layout:** Ưu tiên thiết kế tràn viền (bleed-to-edge). Các khối hình ảnh sản phẩm hoặc banner nên chiếm 100% chiều ngang màn hình để tạo cảm giác sang trọng và chuyên nghiệp như các trang sản phẩm của Apple/Xiaomi. Hạn chế tối đa các khoảng trống thừa hai bên (boxed layout).
-- **Dynamic UX (Giao diện động):** Bố cục động với các vi-tương-tác (micro-animations) như hiệu ứng hover nổi bật, pulse-glow (phát sáng nhịp nhàng) cho các nút CTA.
-- **Modern Palette & Typography:** Khuyến khích sử dụng Dark Mode hoặc Light Mode sắc nét với Gradient color hiện đại (tránh màu cơ bản nhàm chán). Bắt buộc sử dụng các phông chữ hiện đại từ Google Fonts như **Inter, Roboto, hoặc Outfit**.
+### 2️⃣ Các Nguyên lý Thiết kế
+*   **Bố cục Thích ứng (Adaptive Layout Logic):**
+    *   Tràn viền & Tận dụng không gian: Tuyệt đối không được gò bó giao diện trong các khung hình học nhỏ hẹp. Phải ưu tiên thiết kế "phá vỡ khung" (Break the grid). Hình ảnh minh họa phải được ưu tiên kích thước lớn nhất có thể để tạo sự choáng ngợp thị giác, xóa bỏ cảm giác trống trải hai bên màn hình.
+    *   Cấu trúc theo nhịp điệu sản phẩm: AI phải tự phân tích đặc tính sản phẩm để chọn bố cục:
+      - Đối xứng (Symmetry): Cho Gia dụng, Y tế, Thực phẩm (tạo cảm giác tin cậy, ổn định).
+      - Bất đối xứng / Xếp chồng lớp (Asymmetry/Layering): Cho Công nghệ, Thời trang, Giáo dục (tạo sự hiện đại, năng động).
+      - Tối giản (Minimalist): Cho hàng Cao cấp, Xa xỉ (tạo sự sang trọng, tập trung).
+      - Lưới nghiêng / Tương phản cao (Tilted Grid): Cho Thể thao, Dịch vụ khẩn cấp (tạo sự kịch tính, năng lượng).
+      - Hình khối hữu cơ (Organic Shapes): Cho Làm đẹp, Sức khỏe, Mỹ phẩm (tạo sự mềm mại, thân thiện).
 
----
+*   **Nguyên lý Hình ảnh & Minh họa (Visual Storytelling)**
+    *   Tỷ lệ hình ảnh ưu tiên: Trong mọi Section, hình ảnh phải đóng vai trò là "người kể chuyện" chính, không phải là yếu tố phụ họa. Diện tích hiển thị của hình ảnh/video phải chiếm ưu thế so với phần văn bản.
+    *   Đa dạng hóa chất liệu: Yêu cầu AI tự động đề xuất và chèn các loại hình ảnh khác nhau: từ ảnh Lifestyle (ngữ cảnh sử dụng), ảnh Studio (chi tiết sản phẩm), đến các biểu tượng 3D hoặc sơ đồ trừu tượng để minh họa cho các tính năng vô hình
+*   **Hệ thống Thẩm mỹ linh hoạt (Flexible Aesthetics)**
+    *   Tư duy màu sắc (Chromatics): Sử dụng bảng màu sáng (Light Mode) làm chủ đạo nhưng AI phải tự chọn "Màu nhấn - Accent Color" dựa trên bản sắc của loại sản phẩm (ví dụ: Công nghệ dùng màu sắc lạnh/neon, Đồ gia dụng dùng màu ấm/pastel). Màu sắc phải có sự chuyển động (Gradients) thay vì màu đơn sắc nhàm chán.
+    *   Phông chữ hiện đại (Contemporary Typography): AI phải chọn các bộ phông chữ có độ tương phản cao về kích thước (Typography Scale). Tiêu đề phải lớn, đậm và có cá tính, trong khi nội dung bổ trợ phải mảnh và cực kỳ dễ đọc. Tuyệt đối tránh các phông chữ hệ thống cũ kỹ.
+*   **Hệ thống Chuyển động & Tương tác (Interactive Motion)** 
+    *   Phản hồi theo hành vi: Mọi thao tác cuộn trang hoặc di chuột của người dùng đều phải nhận được phản hồi từ giao diện (Micro-interactions).
+    *   Hiệu ứng theo nhóm ngành: AI phải tự định nghĩa "linh hồn" của hiệu ứng:
 
-## 📝 PROMPT MẪU ĐỂ PHÂN TÍCH VÀ CODE TOÀN DIỆN (TEXT, VIDEO, LANDING PAGE) BẰNG AI
+*   **Sự sáng tạo độc bản (Unique Generation)**: Chống lặp lại: Với cùng một yêu cầu nhưng cho các sản phẩm khác nhau, AI phải thay đổi hoàn toàn "Concept thiết kế" (từ cấu trúc Grid, cách đổ bóng, đến kiểu nút bấm) sao cho không có hai trang landing page nào có cảm giác giống hệt nhau về mặt cấu trúc.
 
-```
-Bạn là một chuyên gia Marketing, Copywriter và UI/UX Developer hàng đầu. Hãy dựa vào thông tin sản phẩm dưới đây để tạo ra 4 nội dung:
 
-[THÔNG TIN SẢN PHẨM]
-- Sản phẩm/Dịch vụ: [...]
-- USP: [...]
-- Target audience: [...]
-- Pain point: [...]
-- Desire: [...]
-- Offer: [...]
-- CTA: [...]
-- Deadline: [...]
-- Link Webhook Zapier: [ĐỊA_CHỈ_WEBHOOK_ZAPIER_CỦA_BẠN]
-
-[YÊU CẦU OUTPUT]
-1️⃣ BÀI POST FACEBOOK ADS:
-Viết 1 bài post quảng cáo Facebook dài 150-250 từ. Sử dụng framework PAS. Giọng điệu chuyên nghiệp, thuyết phục. Dùng emoji phù hợp.
-
-2️⃣ KỊCH BẢN VIDEO NGẮN (30 GIÂY):
-Tạo kịch bản video quảng cáo định dạng dọc. Trình bày dưới dạng bảng 2 cột: VISUAL (Hướng dẫn cảnh quay/chữ hiện trên màn hình) và AUDIO (Lời thoại Voiceover AI).
-Cấu trúc: Hook -> Problem -> Solution -> Proof -> CTA.
-
-3️⃣ LANDING PAGE COPY:
-Viết nội dung text chi tiết cho Landing Page của sản phẩm này, bám sát cấu trúc:
-- Hero Section (H1, Sub-headline, CTA)
-- Problem Section (Đồng cảm nỗi đau)
-- Features & Benefits (3 lợi ích chính)
-- Offer & Urgency (Chi tiết ưu đãi)
-- Final CTA
-
-4️⃣ LANDING PAGE CODE (REACT/HTML):
-Hãy lập trình một trang Landing Page bằng React + Vanilla CSS (hoặc Vite) đáp ứng các tiêu chuẩn thẩm mỹ cao cấp (Glassmorphism, Dark/Light Mode, Micro-animations, Font chữ Inter/Roboto).
-**YÊU CẦU ĐẶC BIỆT (MODAL FORM & WEBHOOK):**
-- Toàn bộ các nút CTA KHÔNG được chuyển trang mà phải bật lên một Popup (Modal) Đặt Hàng.
-- Form trong Modal gồm các trường: Họ Tên, Số điện thoại, Tỉnh/Thành phố, Địa chỉ chi tiết, và **Số lượng (sử dụng `<input type="number" min="1" defaultValue="1" />`, KHÔNG dùng thẻ `<select>`)**.
-- Cung cấp tính năng gọi API (fetch POST) gửi dữ liệu (Name, Phone, Address, City, Quantity, cùng với Order_id tự sinh, Price tính toán tự động) tới Link Webhook Zapier ở trên khi người dùng Submit.
-- Hiển thị hiệu ứng "Đang xử lý..." và thay đổi UI thành màn hình thông báo "Đặt hàng thành công" thật đẹp mắt sau khi gửi.
-
-5️⃣ DANH SÁCH PROMPT TẠO ẢNH (DÀNH CHO LUMIFLOW/MIDJOURNEY):
-Dựa trên các tính năng và nội dung đã phân tích, hãy tạo ra danh sách từ 8-10 prompt chi tiết để tạo ảnh minh họa. Mỗi prompt cần đảm bảo:
-- **Tên sản phẩm:** Phải nhắc đến tên sản phẩm cần tạo trong prompt.
-- **Nội dung minh họa:** Mô tả rõ cảnh quay/bối cảnh dùng để giải thích cho tính năng cụ thể nào.
-- **Phong cách & Kỹ thuật:** Chỉ định ánh sáng (studio lighting), góc chụp, không khí (high-tech, cozy, luxury).
-- **Kích thước (Aspect Ratio):** Chỉ định tỷ lệ (ví dụ: 16:9 cho ảnh tràn viền, 1:1 cho icon).
-- **Mục đích:** Ghi chú ảnh này sẽ được đặt ở section nào trên Landing Page.
-```
+### 3️⃣ Yêu cầu Thực thi Kỹ thuật (Execution Guidelines)
+*   **Nền tảng:** Sử dụng React (Next.js) kết hợp với Tailwind CSS
+*   **Hiệu ứng cao cấp:** Glassmorphism (Kính mờ), Soft & Deep Shadows, Scroll Reveal (phần tử hiện ra khi cuộn).
+*   **Typography:** Phông chữ hiện đại (Inter, Roboto, Outfit) với độ tương phản kích thước cao (Typography Scale).
+*   **Luồng chuyển đổi (Conversion Flow):**
+    *   Toàn bộ CTA mở Popup (Modal) đặt hàng tại chỗ, không chuyển trang.
+    *   Form tích hợp Webhook (Zapier/Make) để đẩy data real-time kèm Order_id tự sinh.
+    *   Hiệu ứng xử lý (Loading) và thông báo thành công (Success State) được thiết kế chỉn chu.
 
 ---
 
@@ -355,7 +329,7 @@ Dựa trên các tính năng và nội dung đã phân tích, hãy tạo ra danh
 
 ```
 1. VIẾT   → Tạo 3-5 phiên bản content khác nhau
-2. TEST   → Chạy A/B test với budget nhỏ (50-100k/ngày/bài)
+2. TEST   → Chạy A/B test with budget nhỏ (50-100k/ngày/bài)
 3. ĐO     → Theo dõi CTR, CPL, ROAS sau 3-5 ngày
 4. SCALE  → Tăng budget winner, tắt loser
 5. REFRESH→ Thay creative khi Frequency > 3.5
