@@ -291,6 +291,7 @@ Khi viết kịch bản Video AI (dùng CapCut, HeyGen, v.v.), cấu trúc cần
 *   **Nguyên lý Hình ảnh & Minh họa (Visual Storytelling)**
     *   Tỷ lệ hình ảnh ưu tiên: Trong mọi Section, hình ảnh phải đóng vai trò là "người kể chuyện" chính, không phải là yếu tố phụ họa. Diện tích hiển thị của hình ảnh/video phải chiếm ưu thế so với phần văn bản.
     *   Đa dạng hóa chất liệu: Yêu cầu AI tự động đề xuất và chèn các loại hình ảnh khác nhau: từ ảnh Lifestyle (ngữ cảnh sử dụng), ảnh Studio (chi tiết sản phẩm), đến các biểu tượng 3D hoặc sơ đồ trừu tượng để minh họa cho các tính năng vô hình
+    *   Sử dụng tối thiểu 12 đến 15 hình ảnh và video chất lượng cao. Mặc định sử dụng các ảnh và video placeholder trong giao diện, đồng thời cung cấp danh sách toàn bộ prompt tạo ảnh cho từng vị trí được sử dụng vào file `prompt_image.md`. Mỗi prompt phải tuân thủ chuẩn Midjourney, đề cập đến sản phẩm đang được minh họa, nội dung muốn minh họa và kích thước ảnh cụ thể. Ngoài ra thì hướng dẫn tôi đặt tên của từng ảnh và cho vào folder nào để tôi có thể thay thế nó sau này một cách dễ dàng.
 *   **Hệ thống Thẩm mỹ linh hoạt (Flexible Aesthetics)**
     *   Tư duy màu sắc (Chromatics): Sử dụng bảng màu sáng (Light Mode) làm chủ đạo nhưng AI phải tự chọn "Màu nhấn - Accent Color" dựa trên bản sắc của loại sản phẩm (ví dụ: Công nghệ dùng màu sắc lạnh/neon, Đồ gia dụng dùng màu ấm/pastel). Màu sắc phải có sự chuyển động (Gradients) thay vì màu đơn sắc nhàm chán.
     *   Phông chữ hiện đại (Contemporary Typography): AI phải chọn các bộ phông chữ có độ tương phản cao về kích thước (Typography Scale). Tiêu đề phải lớn, đậm và có cá tính, trong khi nội dung bổ trợ phải mảnh và cực kỳ dễ đọc. Tuyệt đối tránh các phông chữ hệ thống cũ kỹ.
@@ -299,7 +300,6 @@ Khi viết kịch bản Video AI (dùng CapCut, HeyGen, v.v.), cấu trúc cần
     *   Hiệu ứng theo nhóm ngành: AI phải tự định nghĩa "linh hồn" của hiệu ứng:
 
 *   **Sự sáng tạo độc bản (Unique Generation)**: Chống lặp lại: Với cùng một yêu cầu nhưng cho các sản phẩm khác nhau, AI phải thay đổi hoàn toàn "Concept thiết kế" (từ cấu trúc Grid, cách đổ bóng, đến kiểu nút bấm) sao cho không có hai trang landing page nào có cảm giác giống hệt nhau về mặt cấu trúc.
-
 
 ### 3️⃣ Yêu cầu Thực thi Kỹ thuật (Execution Guidelines)
 *   **Nền tảng:** Sử dụng React (Next.js) kết hợp với Tailwind CSS
