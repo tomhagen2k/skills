@@ -1,0 +1,18 @@
+{
+  "name": "Facebook Ads Professional Content Creator",
+  "version": "1.0.0",
+  "description": "Kỹ năng sáng tạo nội dung quảng cáo Facebook, Video Script và Landing Page tối ưu chuyển đổi dựa trên các Framework AIDA, PAS, BAB.",
+  "category": "Marketing",
+  "tags": ["facebook ads", "copywriting", "landing page", "video scripts", "marketing automation"],
+  "author": "Antigravity",
+  "files": {
+    "main_doc": "SKILL.md",
+    "script": "scripts/facebook_ads.py"
+  },
+  "capabilities": [
+    "Content Generation (AIDA, PAS, BAB)",
+    "Video Script Planning",
+    "Landing Page Architecture (Next.js/Tailwind)",
+    "KPI Analysis & Optimization Recommendations"
+  ]
+}
