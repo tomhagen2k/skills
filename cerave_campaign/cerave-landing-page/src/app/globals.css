@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cerave-teal: #007680;
+  --color-cerave-teal-light: #e0f2f1;
+  --color-cerave-blue: #0056b3;
+  --color-cerave-blue-light: #e3f2fd;
+  
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  :root {
+    --background: #f8fafc;
+    --foreground: #0f172a;
+    --primary: #007680;
+    --primary-foreground: #ffffff;
+    --secondary: #e0f2f1;
+    --secondary-foreground: #004d40;
+    --accent: #0056b3;
+    --accent-foreground: #ffffff;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(0, 118, 128, 0.05);
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, var(--color-cerave-teal), var(--color-cerave-blue));
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+/* Organic blobs for background */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: -1;
+  opacity: 0.6;
+}
+.blob-teal {
+  background: var(--color-cerave-teal-light);
+}
+.blob-blue {
+  background: var(--color-cerave-blue-light);
+}

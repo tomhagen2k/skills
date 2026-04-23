@@ -300,6 +300,7 @@ Khi viết kịch bản Video AI (dùng CapCut, HeyGen, v.v.), cấu trúc cần
     *   Hiệu ứng theo nhóm ngành: AI phải tự định nghĩa "linh hồn" của hiệu ứng:
 
 *   **Sự sáng tạo độc bản (Unique Generation)**: Chống lặp lại: Với cùng một yêu cầu nhưng cho các sản phẩm khác nhau, AI phải thay đổi hoàn toàn "Concept thiết kế" (từ cấu trúc Grid, cách đổ bóng, đến kiểu nút bấm) sao cho không có hai trang landing page nào có cảm giác giống hệt nhau về mặt cấu trúc.
+*   **Các chuẩn thiết kế**: Cần phối hợp với các skill trong bộ /Volumes/Work/impeccable/.claude/skills để đảm bảo chất lượng của landing page được đảm bảo tốt nhất
 
 ### 3️⃣ Yêu cầu Thực thi Kỹ thuật (Execution Guidelines)
 *   **Nền tảng:** Sử dụng React (Next.js) kết hợp với Tailwind CSS
